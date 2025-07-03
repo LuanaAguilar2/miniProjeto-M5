@@ -1,7 +1,7 @@
 import { Avaliacao } from "@/interfaces/Avaliacao";
 import { Local } from "@/interfaces/Local";
 
-const API_BASE_URL = 'http://localhost:3000/api';
+const API_BASE_URL = 'http://localhost:3001/api';
 
 export const fetchLocal = async (): Promise<Local[]> => {
   const response = await fetch(`${API_BASE_URL}/locais-acessiveis`); // Rota para todos os locais
@@ -13,7 +13,7 @@ export const fetchLocal = async (): Promise<Local[]> => {
 };
 
 export const fetchRecentAvaliacao = async (): Promise<Avaliacao[]> => {
-  const response = await fetch(`${API_BASE_URL}/avaliacoes/:idLocal/comentarios`); // Rota para comentários com id
+  const response = await fetch(`${API_BASE_URL}/avaliacoes/recentes`); // Rota para comentários com id
   if (!response.ok) {
     throw new Error('Falha ao obter avaliação recente');
   }

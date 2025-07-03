@@ -19,6 +19,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             </ul>
           </nav>
         </div>
+        
       </header>
       {/* Conteúdo Principal */}
       <main>{children}</main>

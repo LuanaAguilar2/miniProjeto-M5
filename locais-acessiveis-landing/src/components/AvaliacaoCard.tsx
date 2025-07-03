@@ -6,6 +6,7 @@ interface AvaliacaoCardProps {
 }
 
 const ReviewCard: React.FC<AvaliacaoCardProps> = ({ avaliacao }) => {
+  console.log("AAAAAA ",avaliacao )
   const stars = '⭐'.repeat(avaliacao.nota);
 
   const dateOptions: Intl.DateTimeFormatOptions = {
