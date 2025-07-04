@@ -6,7 +6,6 @@ interface LocalCardProps {
 }
 
 const LocalCard: React.FC<LocalCardProps> = ({ local }) => {
-  console.log("AAAADDD ", local); 
   return (
     <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200 hover:shadow-lg transition-shadow duration-300">
       <h3 className="text-2xl font-semibold text-blue-700 mb-2">{local.nome}</h3>
