@@ -1,4 +1,4 @@
-♿ Locais Acessíveis BH
+#♿ Locais Acessíveis BH
 Uma plataforma para encontrar, avaliar e compartilhar experiências sobre locais acessíveis em Belo Horizonte.
 
 📝 Contextualização
@@ -50,7 +50,7 @@ Acesse no navegador: http://localhost:3000
 🌐 Link da API Utilizada
 Este projeto consome dados da seguinte API:
 
-🔗 http://localhost:3000
+🔗 https://github.com/LuanaAguilar2/MiniProjeto-M4.git
 
 Objetivo da API:
 
@@ -62,7 +62,13 @@ Objetivo da API:
 🖼️ Imagens do Projeto
 
 📍 Página Inicial
+![página inicial](./locais-acessiveis-landing/public/locais-acessiveis1.png)
 
 🔍 Lista de Locais Acessíveis
+![Lista de locais](./locais-acessiveis-landing/public/locais-acessiveis2.png)
 
 ✨ Detalhes e Avaliações
+![Avaliações](./locais-acessiveis-landing/public/locais-acessiveis3.png)
+
+🏆 Top Locais Acessíveis
+![Top locais acessíveis](./locais-acessiveis-landing/public/locais-acessiveis4.png)
