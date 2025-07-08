@@ -1,4 +1,4 @@
-#♿ Locais Acessíveis BH
+##♿ Locais Acessíveis BH
 Uma plataforma para encontrar, avaliar e compartilhar experiências sobre locais acessíveis em Belo Horizonte.
 
 📝 Contextualização
